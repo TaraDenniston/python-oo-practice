@@ -2,7 +2,8 @@ from wordfinder import WordFinder
 
 class SpecialWordFinder(WordFinder):
     """
-    A Random Word Finder that works with files that include blank lines and comments
+    A Random Word Finder that works with files that include blank lines and 
+    comments. 
     """
 
     def process_line(self, line):
